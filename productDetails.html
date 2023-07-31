@@ -9,10 +9,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
+
 <body>
     <!-- NAV BAR START -->
     <nav class="navbar navbar-expand-lg navbar-light">
-        <img class="logo-img" src="/assets/Designlogo.svg" alt="">
+        <img  class="logo-img" src="/assets/Designlogo.svg" alt="">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
         <i class='bx bx-cart-add'><span>0</span></i>
         </button>
@@ -29,13 +31,13 @@
 
     <!-- PRODUCT -->
     <section class="product-section">
-        <div class="product-image-card">
+        <div id="main-product-image" class="product-image-card">
         </div>
         <div class="other-image">
-            <div class="other-image-card"></div>
-            <div class="other-image-card"></div>
-            <div class="other-image-card"></div>
-            <div class="other-image-card"></div>
+            <button id="image-one" class="other-image-card"></button>
+            <button id="image-two" class="other-image-card"></button>
+            <button id="image-three" class="other-image-card"></button>
+            <button id="image-four" class="other-image-card"></button>
         </div>
 
         <h2>Skin Care Kit Copy</h2>
@@ -59,7 +61,7 @@
 
         <!-- more product start -->
         <div class="more-product-section">
-            <h1>More Products</h1>
+            <h1 class="more-product-text">More Products</h1>
             <div class="more-product-card">
                 <div class="card">
                     <img src="/assets/testingimage.jpg" alt="">
@@ -99,16 +101,7 @@
         <!-- more product ends -->
 
 
-        <!-- Clients word -->
-
-        <div class="clients-words">
-            <h3>Our Reviews</h3>
-            <div class="the-word">
-                <p>Lorem ipsum dolor sit amet, conet optio quasi ipsa sit accusamus officia corrupti.</p>
-                <h5>fisayo</h5>
-            </div>
-        </div>
-
+      
 
 
     </section>
@@ -130,6 +123,20 @@
         
     </div>
 
+
+    <!-- Clients word -->
+
+    <div class="clients-words">
+        <h3>Our Reviews</h3>
+        <div class="the-word">
+            <p>Lorem ipsum dolor sit amet, conet optio quasi ipsa sit accusamus officia corrupti.</p>
+            <h5>fisayo</h5>
+        </div>
+    </div>
+
+    <hr>
+
+
     <div class="Details-footer">
         <ul class="Details-footer-ul">
             <h3>LADEYCHEN</h3>
@@ -141,7 +148,9 @@
 
         <ul class="Details-footer-ul">
             <h3>Company</h3>
-            <li>Home</li>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
             <li>About</li>
             <li>Shop</li>
             <li>Contact</li>

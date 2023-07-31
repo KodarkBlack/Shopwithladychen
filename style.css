@@ -11,163 +11,10 @@
     background-color: #FFFFFF;
     border-radius: 20px;
 }
-/* Advert nav styling Start */
-.Ads-Nav {
-    width: screen;
-    margin-left: -1%;
-    margin-right: -2%;
-    height: 40px;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    padding: 5px;
-    margin-top: -1%;
-    
-}
-
-.Ads-Nav p {
-    -webkit-text-fill-color: white;
-    color: var(--text, #FAFAFA);
-
-/* Title/14PX Regular */
-    font-family: Poppins;
-    font-size: 10px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 21px; /* 150% */
-}
-
-.Ads-Nav-Btn {
-    background-color: #000000;
-    -webkit-text-fill-color: white;
-    border: none;
-    cursor: pointer;
-    
-}
-/* Advert nav styling Ends */
-
-
-/* Shoppy nav styling starts */
-.Shoppy-Nav {
-    width: 90%;
-    height: 60px;
-    background-color: #FFFFFF;
-    border: #000000;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 5%;
-}
-
-.Shoppy-Nav h3 {
-    color: var(--color-2, #1E1E1E);
-    font-family: Quella;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.Search {
-    width: 50%;
-    height: 30px;
-    border-radius: 5px;
-    margin: 3% ;
-    padding: 7px 17px 7px 20px;
-    justify-content: center;
-    align-items: center;
-    background: var(--secondary, #F5F5F5);
-}
-
-.Your-Shoppy-Btn {
-    border: none;
-    background: none;
-    cursor: pointer;
-}
-/* Shoppy nav styling ends */
 
 
 
-/* Exclusive Nav Styling Starts */
-.Exclusive-Nav {
-    width: 100%;
-    height: 60px;
-    background-color: #FFFFFF;
-    border-color: #000000;
-    display: flex;
-    justify-content: space-between;
-}
 
-.Exclusive-Nav h3 {
-    display: flex;
-    width: 118px;
-    height: 24px;
-    justify-content: center;
-    align-items: center;
-}
-
-.Exclusive-Nav ul {
-    display: flex;
-    list-style: none;
-    gap: 8px;
-}
-
-.Become-Seller {
-    display: flex;
-}
-/* Exclusive Nav Styling Ends */
-
-
-
-/* THE 10% VOUCHER PART */
-
-.Voucher-Container {
-    width: 90%;
-    padding: 5%;
-    justify-content: center;
-    margin-bottom: 5%;
-    border-radius: 5px;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-
-
-}
-.applelogo {
-    display: flex;
-    -webkit-text-fill-color: #FFFFFF;
-    justify-content: space-around;
-}
-
-.applelogo img {
-    width: 30%;
-    border-radius: 20%;
-}
-
-.applelogo p {
-    color: var(--text, #FAFAFA);
-    text-align: center;
-    font-family: Poppins;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 33.349px; /* 150% */
-    width: 175.081px;
-    height: 27.791px;
-}
-
-.Voucher {
-    -webkit-text-fill-color: #FFFFFF;
-}
-
-.Voucher h1 {
-    color: var(--text, #FAFAFA);
-    font-family: Inter;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 500; /* 125% */
-    letter-spacing: 2px;
-    width: 408px;
-}
 
 .swiper-wrapper {
     display: flex;
@@ -186,14 +33,7 @@
     border: none;
 }
 
-.Double-Iphone {
-    height: 350px;
-}
 
-.Phone-Card {
-    width: 100%;
-    justify-content: space-between;
-}
 
 .swiper {
     width: 100%;
@@ -210,32 +50,25 @@
     width: screen;
     height: 75px;
     display: flex;
-    margin-top: 5%;
+    padding: 5%;
     justify-content: center;
     overflow: hidden;
+    background-color: #F6F8E2;
     
 }
 
 .Logo-Card {
-    width: 10%;
-    height: 50px;
-    background-color: #FFFFFF;
-    text-align: center;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    border-radius: 10px;
-    flex: 0 0 10%;
-    object-fit: contain;
+    font-family: Tenor Sans;
+    font-size: 60px;
 }
 
 .swiper-wrapper-logo {
     animation: slide 10s linear infinite;
     gap: 5%;
-    align-items: center;
 }
 
 .swiper-wrapper-logo-second {
     gap: 5%;
-    align-items: center;
     animation: 
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
@@ -342,47 +175,7 @@ top: 16.1em;
 left: 2em;
 }
 
-/* .strip {
-position: absolute;
-background-color: black;
-width: 15em;
-height: 1.5em;
-top: 2.4em;
-background: repeating-linear-gradient(
-    45deg,
-    #303030,
-    #303030 10px,
-    #202020 10px,
-    #202020 20px
-);
-} */
 
-/* .mstrip {
-position: absolute;
-background-color: rgb(255, 255, 255);
-width: 8em;
-height: 0.8em;
-top: 5em;
-left: .8em;
-border-radius: 2.5px;
-}
-
-.sstrip {
-position: absolute;
-background-color: rgb(255, 255, 255);
-width: 4.1em;
-height: 0.8em;
-top: 5em;
-left: 10em;
-border-radius: 2.5px;
-} */
-
-/* .code {
-font-weight: bold;
-text-align: center;
-margin: .2em;
-color: black;
-} */
 
 .flip-card-inner {
 position: relative;
@@ -534,9 +327,9 @@ transform: rotateY(180deg);
 .Women-Page {
     display: flex;
     justify-content: space-between;
-    margin: 5%;
-    width: 80%;
-    margin-left: 10%;
+    padding: 5%;
+    width: 100%;
+    background-color: #F6F8E2;
 }
 
 .Women-Card {
@@ -570,36 +363,36 @@ transform: rotateY(180deg);
 .best-selling h3 {
     color: var(--color-2, #1E1E1E);
     font-family: Poppins;
-    font-size: 20px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    text-align: center;
 }
 
 .best-selling p {
     color: var(--color-4, rgba(30, 30, 30, 0.50));
     font-family: Poppins;
-    font-size: 14px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    text-align: center;
 }
 
 .best-selling-btn {
     border-radius: 7.917px;
-    background: #C1DCDC;
-    display: flex;
     padding: 10px 23.75px;
     align-items: center;
-    gap: 9.896px;
-    border: none;
-    color: var(--color-2, #1E1E1E);
     font-family: Poppins;
     font-size: 10px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     cursor: pointer;
+    margin-left: 35%;
+    background-color: #F6F8E2;
+    border-color: orange;
 }
 
 /* BEST SELLING FOR WOMEN ENDS */
@@ -658,9 +451,9 @@ transform: rotateY(180deg);
 /* FEATURED START */
 
 .Featured {
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 5%;
+    width: 100%;
+    background-color: #F6F8E2;
+    padding: 5%;
 }
 
 .Featured-btn {
@@ -672,7 +465,6 @@ transform: rotateY(180deg);
     line-height: 20px;
     width: 0.5%;
     text-align: right;
-    background: #02A0A0;
     border-radius: 5%;
     border: none;
 }
@@ -924,7 +716,7 @@ transform: rotateY(180deg);
 .Footer-Three {
     width: screen;
     height: inherit;
-    background-color: #000000;
+    background-color: #;
     -webkit-text-fill-color: #FFFFFF;
     justify-content: space-between;
     display: flex;
@@ -1025,7 +817,7 @@ transform: rotateY(180deg);
     height: 320px;
     flex: 1 0 200px;
     animation: bounce-in-zoomin 1s linear 0s 1 normal none;
-    margin-bottom: 10%;
+    margin-bottom: 30%;
 }
 
 .card img {
@@ -1079,204 +871,202 @@ transform: rotateY(180deg);
 /* ---------------------------     THE MOBILE FIX ----------------------------- */
 
 @media screen and (max-width: 580px) {
-    /* Styles to be applied for screens with a minimum width of 580px */
-
-.Double-Iphone {
-      display: none;
-}
 
 
-
-.REFERRAL {
-    display: block;
-}
-
-.Footer-Two {
-    display: block;
-    height: inherit;
-    margin-top: -5%;
-}
-
-.Footer-Three {
-    display: block;
-    margin-top: -5%;
-}
-
-.copyright {
-    display: block;
-}
-
-.Gadget-Set {
-    display: grid;
-    justify-content: center;
-    column-gap: 5%;
-}
+    .Double-Iphone {
+        display: none;
+    }
 
 
 
-.Card-Text-Third {
-    width: 80%;
-}
+    .REFERRAL {
+        display: block;
+    }
 
-.Card-Text-Fourth {
-    width: 80%;
-}
+    .Footer-Two {
+        display: block;
+        height: inherit;
+        margin-top: -5%;
+    }
 
-.Card-Text-Second {
-    width: 80%;
-}
+    .Footer-Three {
+        display: block;
+        margin-top: -5%;
+    }
 
-.Card-Text-First {
-    width: 80%;
-}
+    .copyright {
+        display: block;
+    }
 
-.Cards-one-furniture {
-    margin-left: -1%;
-}
-
-.Cards-one {
-    width: 100%;
-    margin-bottom: 5%;
-}
-
-.Cloth-Card-Two {
-    display: block;
-}
-
-.Cards-Two {
-    width: 100%;
-    margin-bottom: 5%;
-}
+    .Gadget-Set {
+        display: grid;
+        justify-content: center;
+        column-gap: 5%;
+    }
 
 
 
-.Later-Container {
-    height: inherit;
-    width: 80%;
-}
+    .Card-Text-Third {
+        width: 80%;
+    }
 
-.Women-Page {
-    display: block;
-}
+    .Card-Text-Fourth {
+        width: 80%;
+    }
 
-.Women-Card-Place {
-    width: 100%;
-}
+    .Card-Text-Second {
+        width: 80%;
+    }
 
-.Become-Seller {
-    display: none;
-}
+    .Card-Text-First {
+        width: 80%;
+    }
 
-.swiper-wrapper-logo {
-    /* display: flex; */
-    text-align: center;
-    animation: slide 30s linear infinite;
-    gap: 5%;
-    /* align-items: rigcht; */
-    height: 250px;
-    /* position: absolute; */
-}
+    .Cards-one-furniture {
+        margin-left: -1%;
+    }
 
-.Voucher {
-    background: url(Assets/lighten-kit.jpg);
-    object-fit: fill;
-    height: 300px;
-    padding: 1%;
-    
-}
+    .Cards-one {
+        width: 100%;
+        margin-bottom: 5%;
+    }
 
-.Tab {
-    margin: 10%;
-}
+    .Cloth-Card-Two {
+        display: block;
+    }
 
-.Voucher h1 {
-    color: var(--text, #FAFAFA);
-    font-family: Inter;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 200;
-    letter-spacing: 2px;
-    width: 200px;
-}
+    .Cards-Two {
+        width: 100%;
+        margin-bottom: 5%;
+    }
 
-.Laptop {
-    margin: 2%;
-    display: flex;
-}
 
-.Laptop-cont {
-    margin-left: 5%;
-}
 
-.Laptop-cont button {
-    height: 15%;
-    text-align: center;
-    font-size: 10px;
-}
+    .Later-Container {
+        height: inherit;
+        width: 80%;
+    }
 
-.best-selling {
-    margin: 5%;
-}
+    .Women-Page {
+        display: block;
+    }
 
-.modal-btn {
-    margin-top: 5%;
-}
+    .Women-Card-Place {
+        width: 100%;
+    }
 
-.copyright {
+    .Become-Seller {
+        display: none;
+    }
+
+    .swiper-wrapper-logo {
+        text-align: center;
+        animation: slide 30s linear infinite;
+        gap: 5%;
+        height: 250px;
+    }
+
+    .Voucher {
+        background: url(Assets/lighten-kit.jpg);
+        object-fit: fill;
+        height: 300px;
+        padding: 1%;
+        
+    }
+
+    .Tab {
+        margin: 10%;
+    }
+
+    .Voucher h1 {
+        color: var(--text, #FAFAFA);
+        font-family: Inter;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 200;
+        letter-spacing: 2px;
+        width: 200px;
+    }
+
+    .Laptop {
+        margin: 2%;
+        display: flex;
+    }
+
+    .Laptop-cont {
+        margin-left: 5%;
+    }
+
+    .Laptop-cont button {
+        height: 15%;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .best-selling {
+        padding: 10%;
+    }
+
+    .modal-btn {
+        margin-top: 5%;
+    }
+
+    .copyright {
         text-align:center;
-}
+    }
 
-.the-logo img {
+    .the-logo img {
         margin-left: 10%;
         justify-content: space-evenly;
-}
+    }
 
-.Search {
+    .Search {
         width: 50%;
         margin: 7%;
-}
+    }
 
-/* Review part */
+    /* Review part */
 
-.Review-Part {
-    width: 90%;
-    height: inherit;
-    margin: 2%;
-    padding: 3%;
-    border: #000000;
-    border-radius: 10px;
-}
+    .Review-Part {
+        width: 90%;
+        height: inherit;
+        margin: 2%;
+        padding: 3%;
+        border: #000000;
+        border-radius: 10px;
+    }
 
-.Review-Cont {
-    width: 80%;
-    height: 150px;
-    background: #02A0A0;
-    margin: 10%;
-    border-radius: 10px;
-    justify-content: center;
-    padding: 2%;
-}
+    .Review-Cont {
+        width: 80%;
+        height: 150px;
+        background: #02A0A0;
+        margin: 10%;
+        border-radius: 10px;
+        justify-content: center;
+        padding: 2%;
+    }
 
-.Review-Cont h3 {
-    text-align: center;
-    margin: 15%;
-}
+    .Review-Cont h3 {
+        text-align: center;
+        margin: 15%;
+    }
 
-.Designlogo {
-    width: 10%;
-}
+    .Designlogo {
+        width: 10%;
+    }
 
-.product-main {
-    width: 100%;
-    height: 300px;
-    background-color: #9CCD62;
-}
+    .product-main {
+        width: 100%;
+        height: 300px;
+        background-color: #F6F8E2;
+        margin-top: -5%;
+    }
 
-.Daily-care {
-    font-size: 60px;
-    width: 100%;
-    font-family: tenor sans;
-}
+    .Daily-care {
+        font-size: 60px;
+        width: 100%;
+        font-family: tenor sans;
+    }
 
 
 }
@@ -1286,10 +1076,12 @@ transform: rotateY(180deg);
     height: inherit;
 }
 
-.the-product-price h3 {
+.the-product-price button {
     font-size: 25px;
     text-align: center;
-    background-color: #9CCD62;
+    background-color: #F6F8E2;
+    width: 100%;
+    border: none;
 }
 
 .the-product-price span {
@@ -1301,8 +1093,8 @@ transform: rotateY(180deg);
     width: screen;
     height: inherit;
     padding: 5%;
-    background-color: #02A0A0;
-    margin-top: 5%;
+    background-color: #F6F8E2;
+
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -1319,13 +1111,13 @@ transform: rotateY(180deg);
     width: screen;
     height: inherit;
     padding: 5%;
-    background-color: burlywood;
+    background-color: #F6F8E2;
 }
 
 .footer-second h5 {
     font-family: Tenor Sans;
     font-size: 60px;
-    color: #FFFFFF;
+    color: #000000;
 
 }
 
@@ -1378,6 +1170,7 @@ transform: rotateY(180deg);
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-color: #F6F8E2;
 }
 
 .Details-footer-ul {
@@ -1403,7 +1196,6 @@ transform: rotateY(180deg);
 /* =============== Product details =========== */
 
 .product-image-card {
-    /* width: 100%; */
     height: 350px;
     background-image: url(assets/testingimage.jpg);
     background-repeat: no-repeat;
@@ -1451,7 +1243,6 @@ transform: rotateY(180deg);
 
 .other-image {
     display: flex;
-    /* gap: 10px; */
     margin-top: 5%;
     gap: 5%;
 }
@@ -1465,6 +1256,10 @@ transform: rotateY(180deg);
     background-size: cover;
     border-radius: 5px;
 }
+.more-product-text {
+    width: 20%;
+    margin-bottom: 10%;
+}
 
 .more-product-card {
     display: flex;
@@ -1472,7 +1267,8 @@ transform: rotateY(180deg);
     gap: 10px;
 }
 .clients-words {
-    margin-top: 15%;
+    background-color: #F6F8E2;
+    padding: 10%;
 }
 
 .clients-words h3 {
@@ -1483,8 +1279,15 @@ transform: rotateY(180deg);
 .the-word {
     background-color: #FFFFFF;
     border-radius: 10px;
+    border: #000000;
     width: 100%;
-    padding: 10%;
+    padding: 5%;
     height: 200px;
     font-family: Poppins;
 }
+
+.more-product-section {
+    background-color: #F6F8E2;
+    padding: 5%;
+}
+
