@@ -1,8 +1,16 @@
 /* FONT IMPORT */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Tenor+Sans&display=swap');
 
 
 
+.navbar {
+    background-color: #F6F8E2;
+}
+
+.collapse {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
 /* Advert nav styling Start */
 .Ads-Nav {
     width: screen;
@@ -1011,15 +1019,13 @@ transform: rotateY(180deg);
 }
 
 .card {
-    background: #FFFFFF;
     border: none;
     border-radius: 15px;
     width: 100%;
     height: 320px;
     flex: 1 0 200px;
-    /* align-items: center; */
-    /* margin-left: 3%; */
-    animation: bounce-in-zoomin 1s linear 0s 1 normal none
+    animation: bounce-in-zoomin 1s linear 0s 1 normal none;
+    margin-bottom: 10%;
 }
 
 .card img {
@@ -1065,6 +1071,10 @@ transform: rotateY(180deg);
     }
 }
 
+
+.Details-footer {
+
+}
 
 /* ---------------------------     THE MOBILE FIX ----------------------------- */
 
@@ -1259,11 +1269,13 @@ transform: rotateY(180deg);
 .product-main {
     width: 100%;
     height: 300px;
-    background-color: #FFFFFF;
+    background-color: #9CCD62;
 }
 
 .Daily-care {
-    font-size: 70px;
+    font-size: 60px;
+    width: 100%;
+    font-family: tenor sans;
 }
 
 
@@ -1274,12 +1286,33 @@ transform: rotateY(180deg);
     height: inherit;
 }
 
+.the-product-price h3 {
+    font-size: 25px;
+    text-align: center;
+    background-color: #9CCD62;
+}
+
+.the-product-price span {
+    color: orange;
+    font-size: 20px;
+}
+
 .footer-first {
     width: screen;
     height: inherit;
     padding: 5%;
     background-color: #02A0A0;
     margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+
+}
+
+.footer-divs {
+    font-family: Poppins;
+    text-align: center;
 }
 
 .footer-second {
@@ -1289,23 +1322,34 @@ transform: rotateY(180deg);
     background-color: burlywood;
 }
 
+.footer-second h5 {
+    font-family: Tenor Sans;
+    font-size: 60px;
+    color: #FFFFFF;
+
+}
+
 .Mailing-list {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: minmax(auto-fit, 100px 1fr);
 }
 
 .Mailing-list label {
-    background-color: #C1DCDC;
+    font-family: Poppins;
+    font-size: 30px;
     text-align: center;
-    font-size: 20px;
     padding: 10px;
 }
 
 .Mailing-list input {
-    background-color: #C1DCDC;
+    font-family: Poppins;
+    background-color: #FFFFFF;
     text-align: center;
     font-size: 20px;
     padding: 10px;
     border: none;
+    border-radius: 10px;
 
 }
 
@@ -1315,6 +1359,9 @@ transform: rotateY(180deg);
     font-size: 20px;
     padding: 10px;
     border: none;
+    border-radius: 10px;
+    align-items: center;
+    font-family: Poppins;
 }
 
 
@@ -1326,9 +1373,118 @@ transform: rotateY(180deg);
     align-items: center;
 }
 
-/* .Order-Part p {
+.Details-footer {
+    padding: 5%;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    margin-top: 50%;
 }
-  */
-  
+
+.Details-footer-ul {
+    list-style: none;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.Incorporated a {
+    -webkit-text-fill-color: #756565;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.logo-img {
+    width: 20%;
+}
+
+
+/* =============== Product details =========== */
+
+.product-image-card {
+    /* width: 100%; */
+    height: 350px;
+    background-image: url(assets/testingimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.product-section {
+    padding: 5%;
+    background-color: #F6F8E2;
+}
+
+.product-section h2 {
+    margin-top: 5%;
+    font-family: Poppins;
+    font-size: 50px;
+}
+
+.normal-price {
+    font-family: Poppins;
+    color: orangered;
+}
+
+.canceled-price {
+    font-size: 20px;
+    color: #696767;
+}
+
+.cart-monitor {
+    gap: 10px;
+}
+
+.cart-monitor input {
+    width: 10%;
+    height: 50px;
+    border: none;
+}
+
+.Addtocart{
+    padding: 12px;
+    border: none;
+    background-color: orangered;
+    color: #FFFFFF;
+}
+
+
+.other-image {
+    display: flex;
+    /* gap: 10px; */
+    margin-top: 5%;
+    gap: 5%;
+}
+
+.other-image-card {
+    width: 15%;
+    height: 70px;
+    background-image: url(assets/testingimage.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.more-product-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.clients-words {
+    margin-top: 15%;
+}
+
+.clients-words h3 {
+    text-align: center;
+    font-family: Tenor Sans;
+}
+
+.the-word {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10%;
+    height: 200px;
+    font-family: Poppins;
+}
