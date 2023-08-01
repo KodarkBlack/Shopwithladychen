@@ -395,6 +395,12 @@ transform: rotateY(180deg);
     border-color: orange;
 }
 
+.best-selling-btn:hover {
+    background-color: #02A0A0;
+    -webkit-text-fill-color: #FFFFFF;
+    border: none;
+}
+
 /* BEST SELLING FOR WOMEN ENDS */
 
 
@@ -773,14 +779,17 @@ transform: rotateY(180deg);
     justify-content: center;
     border-radius: 0.5rem;
     border: none;
+    font-family: Poppins;
+    font-size: 20px;
     padding: .5rem 0;
     color: rgba(51, 65, 85, 1);
     transition: all .15s ease-in-out;
-    -webkit-text-fill-color: #A5DBDD;
+    -webkit-text-fill-color: #000000;
 }
   
 .products-part .radio input:checked + .Props {
-    background-color: black;
+    background-color: #9CCD62;
+    -webkit-text-fill-color: #FFFFFF;
     font-weight: 600;
 }
 
@@ -821,8 +830,12 @@ transform: rotateY(180deg);
 }
 
 .card img {
-    /* max-width: 100%; */
     height: inherit;
+
+}
+
+.card img:hover {
+
 }
 
 @keyframes bounce-in-zoomin {
@@ -1084,6 +1097,16 @@ transform: rotateY(180deg);
     border: none;
 }
 
+.the-product-price button:hover {
+    font-size: 30px;
+    text-align: center;
+    background-color: #9CCD62;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    -webkit-text-fill-color: #3C3D42;
+}
+
 .the-product-price span {
     color: orange;
     font-size: 20px;
@@ -1146,7 +1169,7 @@ transform: rotateY(180deg);
 }
 
 .Mailing-list button {
-    background-color: #C1DCDC;
+    background-color: #9CCD62;
     text-align: center;
     font-size: 20px;
     padding: 10px;
@@ -1155,6 +1178,19 @@ transform: rotateY(180deg);
     align-items: center;
     font-family: Poppins;
 }
+
+.Mailing-list button:hover {
+    background-color: #9CCD62;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    font-family: Tenor Sans;
+    -webkit-text-fill-color: #FFFFFF;
+}
+
 
 
 .Order-Part {
@@ -1289,5 +1325,20 @@ transform: rotateY(180deg);
 .more-product-section {
     background-color: #F6F8E2;
     padding: 5%;
+}
+
+.my-cart {
+    width: 100%;
+    height: inherit;
+    background: orange;
+    padding: 5px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.alert-message {
+    text-align: center;
+    margin-top: 5%;
 }
 

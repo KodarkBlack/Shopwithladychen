@@ -3,6 +3,9 @@ const dailyProduct = document.getElementById('daily-product');
 const antiAging = document.getElementById('anti-aging');
 const cleansersProduct = document.getElementById('cleansers-product');
 
+const addToCartBtn = document.getElementById('add-to-cart-btn');
+const alertMessage = document.getElementById('alert-message');
+const addedCart = document.getElementById('added-cart');
 
 const dailyProductContent = document.getElementById('daily-product-content');
 const antiAgingContent = document.getElementById('anti-aging-content');

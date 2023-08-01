@@ -23,7 +23,22 @@
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="Order-Part ">
-                <p>You Have No Order</p>
+                <div class="my-cart">
+                    <h3>My Cart</h3>
+                </div>
+                <p class="alert-message" id="alert-message">You Have No Order</p>
+                <ul class="adding-cart" id="added-cart">
+
+                </ul>
+
+                <hr>
+
+            
+                <button>Check Out
+                <i class="bx bx-cart-add"></i>
+                </button>
+                
+
             </div>
         </div>
     </nav> 
@@ -47,8 +62,8 @@
         <h3 class="normal-price">59.00 NGN <span class="canceled-price">69.00 NGN</span> </h3>
 
         <form class="cart-monitor">
-            <input type="number" name="" id="">
-            <button class="Addtocart" type="submit">ADD TO CART</button>
+            <input type="number" name="" id="" id="input">
+            <button class="Addtocart" type="submit" id="add-to-cart-btn">ADD TO CART</button>
         </form>
 
         <hr>
@@ -134,11 +149,10 @@
         </div>
     </div>
 
-    <hr>
-
 
     <div class="Details-footer">
         <ul class="Details-footer-ul">
+            <img class="logo-img" src="/assets/Designlogo.svg" alt="">
             <h3>LADEYCHEN</h3>
             <b>BRING YOU A FRESH LIFE</b>
             <li>Up to 1000 NGN, free delivery</li>
