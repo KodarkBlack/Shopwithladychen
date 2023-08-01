@@ -756,9 +756,11 @@ transform: rotateY(180deg);
 .products-part {
     display: flex;
     justify-content: center;
-    margin: 2%;
+    /* margin: 2%; */
+    padding: 15px;
     box-sizing: border-box;
     border-radius: 0.5rem;
+    background-color: #BFBBAF;
 
 }
 
@@ -793,6 +795,12 @@ transform: rotateY(180deg);
     font-weight: 600;
 }
 
+.products-part .radio input:hover + .Props {
+    background-color: #555A54;
+    -webkit-text-fill-color: #FFFFFF;
+    font-weight: 600;
+}
+
 .overall-product {
     width: 100%;
     height: inherit;
@@ -808,7 +816,8 @@ transform: rotateY(180deg);
     width: screen;
     height: inherit;
     padding: 5%;
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
+    background-color: #BFBBAF;
 }
 
 
