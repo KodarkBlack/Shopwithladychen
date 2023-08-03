@@ -50,46 +50,48 @@ cleansersProduct.addEventListener('click', () => {
 });
 
 
-// Initialize an empty cart
-let cartItems = [];
 
-// Function to add an item to the cart
-function addToCart(productName, price, quantity) {
-    // Check if the product already exists in the cart
-    const existingItem = cartItems.find(item => item.name === productName);
-    if (existingItem) {
-        existingItem.quantity += quantity;
-    } else {
-        cartItems.push({ name: productName, price: price, quantity: quantity });
-    }
-    updateCart();
-}
 
-// Function to update the cart UI
-function updateCart() {
-    const cartList = document.getElementById("added-cart");
-    const alertMessage = document.getElementById("alert-message");
+// // Initialize an empty cart
+// let cartItems = [];
 
-    // Clear the previous cart content
-    cartList.innerHTML = "";
+// // Function to add an item to the cart
+// function addToCart(productName, price, quantity) {
+//     // Check if the product already exists in the cart
+//     const existingItem = cartItems.find(item => item.name === productName);
+//     if (existingItem) {
+//         existingItem.quantity += quantity;
+//     } else {
+//         cartItems.push({ name: productName, price: price, quantity: quantity });
+//     }
+//     updateCart();
+// }
 
-    // Rebuild the cart with the updated items
-    cartItems.forEach(item => {
-        const li = document.createElement("li");
-        li.innerText = `${item.name} - ${item.quantity} x ${item.price} NGN`;
-        cartList.appendChild(li);
-    });
+// // Function to update the cart UI
+// function updateCart() {
+//     const cartList = document.getElementById("added-cart");
+//     const alertMessage = document.getElementById("alert-message");
 
-    // Display a message when the cart is empty
-    alertMessage.style.display = cartItems.length === 0 ? "block" : "none";
-}
+//     // Clear the previous cart content
+//     cartList.innerHTML = "";
 
-// Function to handle the form submission
-document.getElementById("add-to-cart-btn").addEventListener("click", function (event) {
-    event.preventDefault();
-    const productName = "Skin Care"; // Change this to the actual product name
-    const price = 59.00; // Change this to the actual product price
-    const quantity = parseInt(document.getElementById("input").value) || 1;
-    addToCart(productName, price, quantity);
-});
+//     // Rebuild the cart with the updated items
+//     cartItems.forEach(item => {
+//         const li = document.createElement("li");
+//         li.innerText = `${item.name} - ${item.quantity} x ${item.price} NGN`;
+//         cartList.appendChild(li);
+//     });
+
+//     // Display a message when the cart is empty
+//     alertMessage.style.display = cartItems.length === 0 ? "block" : "none";
+// }
+
+// // Function to handle the form submission
+// document.getElementById("add-to-cart-btn").addEventListener("click", function (event) {
+//     event.preventDefault();
+//     const productName = "Skin Care"; // Change this to the actual product name
+//     const price = 59.00; // Change this to the actual product price
+//     const quantity = parseInt(document.getElementById("input").value) || 1;
+//     addToCart(productName, price, quantity);
+// });
 

@@ -63,36 +63,37 @@
 
         <form class="cart-monitor">
             <input type="number" name="" id="" id="input">
-            <button class="Addtocart" type="submit" id="add-to-cart-btn">ADD TO CART</button>
+            <button class="Addtocart" type="submit" id="add-to-cart-btn">ADD TO CART 
+                <i class='bx bx-cart-add'></i>
+            </button>
         </form>
 
         <hr>
-        <div class="">
-            <b>Description</b>
-            <div class="expandMoreContent" id="showMoreContent">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                   Fugit quis quos minima perferendis aspernatur eaque 
-                   nemo labore temporibus autem similique.
-                </p>
+        <p>
+            <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                Description
+            </button>
+        </p>
+        <div style="min-height: 120px;">
+        <div class="collapse width" id="collapseWidthExample">
+            <div class=" card-body" style="width: 300px;">
+            This is some placeholder content for a horizontal collapse. It's hidden by default and shown when triggered.
             </div>
-            <div class="expandMoreHolder">
-                <span expand-more data-hidetext="show less..." data-showtext="show more" target="showMoreContent1">show </span>
-            </div>
-
         </div>
-        <hr>
-        <div class="">
-            <b>Details</b>
-            <div class="expandMoreContent" id="showMoreContent">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                   Fugit quis quos minima perferendis aspernatur eaque 
-                   nemo labore temporibus autem similique.
-                </p>
-            </div>
-            <div class="expandMoreHolder">
-                <span expand-more data-hidetext="show less..." data-showtext="show more" target="showMoreContent1">show </span>
-            </div>
+        </div>
 
+        <hr>
+        <p>
+            <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseWidthExamples" aria-expanded="false" aria-controls="collapseWidthExample">
+                Details
+            </button>
+        </p>
+        <div style="min-height: 120px;">
+        <div class="collapse width" id="collapseWidthExamples">
+            <div class=" card-body" style="width: 320px;">
+            This is some placeholder content for a horizontal collapse. It's hidden by default and shown when triggered.
+            </div>
+        </div>
         </div>
         <hr>
 
